@@ -71,7 +71,6 @@ namespace CalculadoraFinanceira
 
             CalculadoraFinanceira rendaFixa = new CalculadoraFinanceira();
 
-
             rendaFixa.aplicacao = valorAplicado;
             rendaFixa.meses = meses;
             rendaFixa.juros = juros;
