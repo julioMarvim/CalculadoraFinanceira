@@ -40,6 +40,7 @@ namespace CalculadoraFinanceira
             Console.Write("Informe o valor da Aplicação: ");
             double valorAplicado = double.Parse(Console.ReadLine());
 
+
             //% de rendimento mensal na poupança
             Console.Write("Informe o juros de Poupança: ");
             double juros = double.Parse(Console.ReadLine());
