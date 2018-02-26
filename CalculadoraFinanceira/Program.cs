@@ -10,25 +10,7 @@ namespace CalculadoraFinanceira
     {
         static void Main(string[] args)
         {
-            string tipoDeAplicacao = "Qual tipo de Aplicação deseja Fazer? ";
-            Console.WriteLine(tipoDeAplicacao);
-
-            Console.WriteLine("Para Poupança digite 1: ");
-            Console.WriteLine("Para Renda Fixa digite 2: ");
-            int numeroDaAplicacao = int.Parse(Console.ReadLine());
-
-            if (numeroDaAplicacao == 1)
-            {
-                CalculoPoupanca();
-            } else if (numeroDaAplicacao == 2)
-            {
-                //CalculoRendaFixa();
-            }else
-            {
-                Console.WriteLine("Operação Inválida!");
-                Console.ReadLine();
-            }
-
+            CalculoPoupanca();
         }
             public static void CalculoPoupanca()
         {
