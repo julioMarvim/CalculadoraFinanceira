@@ -53,10 +53,10 @@ namespace CalculadoraFinanceira
             double jurosRendaFixa = Convert.ToDouble(Console.ReadLine());
 
             CalculadoraFinanceira rendaFixa = new CalculadoraFinanceira();
-
+            
             rendaFixa.aplicacao = valorAplicado;
             rendaFixa.meses = meses;
-            rendaFixa.juros = juros;
+            rendaFixa.juros = jurosRendaFixa;
             rendaFixa.Juros(rendaFixa.juros);
 
             rendaFixa.AplicacaoEmRFixa(rendaFixa.aplicacao, rendaFixa.meses);
